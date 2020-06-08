@@ -34,4 +34,7 @@
 	.radio {
 		margin: 10px auto;
 	}
+	#typeofService {
+		margin-bottom: 0px;
+	}
 }
