@@ -4,9 +4,14 @@
 	box-sizing: border-box;
 	text-align: center;
 }
+.dropdown-menu {
+	flex: 1;
+	justify-content: flex-end;
+}
 
 .s1 img {
 	display: block;
+	position: absolute;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -19,13 +24,21 @@
 	width: 150px;
   	margin: 40px auto;
 }
+#submitButton {
+	width: 20%; 
+	margin: 30px auto;
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
 	#text1{
-		font-size: 30px;
+		font-size: 25px;
 	}
 	.s1 h2 {
 		font-size: 20px;
+		margin: 0px 0px;
+	}
+	#submitButton{
+		width: 50%;
 	}
 	.center{
 		width: 150px;
